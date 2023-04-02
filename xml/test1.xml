@@ -1,0 +1,17 @@
+
+<module name = "mod1">
+    <gv name = "gv1" addr = "0x1000" />
+    <gv name = "gv2" addr = "0x1008"/>
+
+    <f name = "function.func1" range = "0x1000-0x2000" >
+        <bb  name = "block.bb1" range = "0x1000-0x2000">
+            <i addr = "0x1000" name = "store a, b" extra = "" comment = ""/>
+            <i addr = "0x1001" name = "load p343434" extra = "" comment = ""/>
+            <i addr = "0x1002" name = "load p2342342" extra = "" comment = ""/>
+            <i addr = "0x1003" name = "load p435345345345345" extra = "" comment = ""/>
+            <i addr = "0x1004" name = "load p457841541234545" extra = "" comment = ""/>
+        </bb>
+    </f>
+</module>
+
+
