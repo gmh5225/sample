@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document Version="2">
+    <Protection InputFileName="test-win-seh.exe" Options="262344" VMCodeSectionName=".44b">
+        <Messages />
+        <Folders />
+        <Procedures>
+            <Procedure MapAddress="msvc_SEH_1" Options="0" />
+            <Procedure MapAddress="msvc_SEH_2" Options="0" />
+            <Procedure MapAddress="msvc_SEH_3" Options="0" />
+            <Procedure MapAddress="msvc_SEH_4" Options="0" />
+            <Procedure MapAddress="msvc_SEH_5" Options="0" />
+            <Procedure MapAddress="msvc_SEH_6" Options="0" />
+        </Procedures>
+        <Objects />
+    </Protection>
+    <DLLBox>
+        <Folders />
+    </DLLBox>
+    <Script />
+    <LicenseManager />
+</Document>
